@@ -7,13 +7,15 @@ const items = [
         id:1,
         title:"Face Recognition System",
         img:"https://imgs.search.brave.com/GPNkNLc0cX8JQ_ehPAlckaQj4CheHZzg6rV8e96oyxE/rs:fit:860:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy9l/L2VmL0ZhY2VfZGV0/ZWN0aW9uLmpwZw",
-        desc:"It is a face Recognition system made using CNN, SVM, FaceNet, Deepface machine learning models. It is capable of marking the attendance of the complete batch with just 1 group photo. It detects individual faces from the group photo and recognises them and after recognition can mark the attendance of the individual on its own"
+        desc:"It is a face Recognition system made using CNN, SVM, FaceNet, Deepface machine learning models. It is capable of marking the attendance of the complete batch with just 1 group photo. It detects individual faces from the group photo and recognises them and after recognition can mark the attendance of the individual on its own",
+        link:"https://github.com/arnavwinner/ML_Project"
     },
     {
         id:2,
         title:"Data Visualisation",
         img:"https://imgs.search.brave.com/xtFM09viHRS5wr2SLGE4TXkg7HldmK_-lBJx3VyZmg4/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pLnBj/bWFnLmNvbS9pbWFn/ZXJ5L2FydGljbGVz/LzAyWGt0NXNwM2ZW/bDVyR1V0azNEWE1p/LTcuZml0X2xpbS52/MTU2OTQ4NTM0OS5q/cGc",
-        desc:"It is a react APP made using mongoDB as data base and NodeJs for backend. It helps in visualising the data provided in a more presentable and graph form. This was created for an assignment for Black Coffer"
+        desc:"It is a react APP made using mongoDB as data base and NodeJs for backend. It helps in visualising the data provided in a more presentable and graph form. This was created for an assignment for Black Coffer",
+        link:"https://github.com/Abhishek2310k/Black_Coffer"
     }
 ];
 const Single = ({ item }) => {
@@ -35,7 +37,7 @@ const Single = ({ item }) => {
           <motion.div className="textContainer" style={{y}}>
             <h2>{item.title}</h2>
             <p>{item.desc}</p>
-            <button>See Demo</button>
+            <a href={item.link}> Git Repo</a>
           </motion.div>
         </div>
       </div>

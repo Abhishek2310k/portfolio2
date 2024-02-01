@@ -64,7 +64,7 @@ const Services = () => {
           <p>
             A website made in colaboration with the web development team for meraz(cultural festival of IIT Bhilai). This website used svelte for the programming along with scss for styling the website 
           </p>
-          <button>Go</button>
+          <a href="https://github.com/Abhishek2310k/meraz2k24">Git Repo</a>
         </motion.div>
         <motion.div
           className="box"
@@ -75,7 +75,7 @@ const Services = () => {
             A website made in colaboration with web development club of IIT Bhilai for Ingenuity the official coding club of IIT Bhilai.
             Yhis website uses MERN stack and is acts as a means to inform people about the futere events and code along sessions hosted by the club
           </p>
-          <button>Go</button>
+          <a href="https://github.com/Abhishek2310k/Ingenuity">Git Repo</a>
         </motion.div>
       </motion.div>
     </motion.div>

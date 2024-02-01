@@ -125,10 +125,14 @@
         // }
       }
 
-      button {
+      a {
         padding: 10px;
         background-color: orange;
         border: none;
+        color: black;
+        text-align: center;
+        width: 30%;
+        border-radius: 25px;
         cursor: pointer;
 
         // @include mobile {
